@@ -1,0 +1,116 @@
+
+
+
+
+/************************* this Style for slick slider Start **************************/
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: transparent;
+    font-size: 28px;
+    transform: translateY(-50%);
+    z-index: 99;
+
+}
+
+.slick-next {
+    left: auto;
+    right: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 99;
+    bottom: 20px;
+    display: flex;
+
+}
+.slick-dots li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li.slick-active {
+    background-image: linear-gradient(to right, red , yellow, green, red);
+    border-radius: 50%;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .my-container {
+    background-image: url(../images/reserve-bg.png);
+} */
+
+.style1 {
+    color: red;
+    font-style: italic;
+    font-size: 90px;
+}
+
+.my_btn2 {
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
