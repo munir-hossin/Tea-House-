@@ -19,29 +19,68 @@
      <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <section>
-        <div class="container">
+
+<!-- nav Start  -->
+    <div class="container my-0 py-0">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid nab">
+              <a class="navbar-brand" href="#"><img src="assets/images/coffee_logo.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+ <!--  Nav End -->
            
 <!--------------------- Slick slider Start ------------------------------>
-<div class="container py-5">
+<div class="container pb-3">
     <div class="slider-container">
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/001.jpg" class="w-100" alt="img">
         </div>
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/002.jpg" class="w-100" alt="img">
         </div>
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/003.jpg" class="w-100" alt="img">
         </div>
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/004.jpg" class="w-100" alt="img">
         </div>
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/005.jpg" class="w-100" alt="img">
         </div>
         <div class="slider-item">
-            <img src="assets/images/food-1.png" class="w-100" alt="img">
+            <img src="assets/images/006.jpg" class="w-100" alt="img">
         </div>
     </div>
 </div>
@@ -50,10 +89,10 @@
 <div class="container">
     <div class="gallery-menu">
         <ul class="d-flex justify-content-center">
-            <li data-filter="all" class="btn btn-primary mx-1">All</li>
-            <li data-filter=".category-1" class="btn btn-primary mx-1">Food One</li>
-            <li data-filter=".category-2" class="btn btn-primary mx-1">Food Two</li>
-            <li data-filter=".category-3" class="btn btn-primary mx-1">Food Three</li>
+            <li data-filter="all" class="btn btn-info mx-1">Super All <i class="fa-solid fa-mug-hot"></i></li>
+            <li data-filter=".category-1" class="btn btn-primary mx-1">special Tea</li>
+            <li data-filter=".category-2" class="btn btn-danger mx-1">popular coffee</li>
+            <li data-filter=".category-3" class="btn btn-success mx-1">Best delicious coffee</li>
         </ul>
     </div>
 </div>
@@ -62,49 +101,48 @@
     <div class="my-gallery">
         <ul class="d-flex flex-wrap list-unstyled gallery_container">
             <li class="col-3 p-1 mix category-1">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/7.JPG">
-                    <img class="w-100 img-fluid"src="assets/images/1.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/1.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/3.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-2">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/3.png">
-                    <img class="w-100 img-fluid"src="assets/images/3.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/2.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/2.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-3">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/4.png">
-                    <img class="w-100 img-fluid"src="assets/images/4.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/3.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/1.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-1">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/5.png">
-                    <img class="w-100 img-fluid"src="assets/images/5.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/4.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/4.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-2">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/6.png">
-                    <img class="w-100 img-fluid"src="assets/images/6.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/5.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/5.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-3">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/1.png">
-                    <img class="w-100 img-fluid"src="assets/images/1.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/02.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/6.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-1">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/2.png">
-                    <img class="w-100 img-fluid"src="assets/images/2.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/6.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/7.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-2">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/3.png">
-                    <img class="w-100 img-fluid"src="assets/images/3.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/7.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/8.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-3">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/4.png">
-                    <img class="w-100 img-fluid"src="assets/images/4.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/8.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/9.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-1">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/5.png">
-                    <img class="w-100 img-fluid"src="assets/images/5.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/9.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/10.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-2">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/2.png">
-                    <img class="w-100 img-fluid"src="assets/images/2.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/10.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/11.jpg" alt="img"></a></li>
             <li class="col-3 p-1 mix category-3">
-                <a data-gall="gallery01" class="my-image-links" href="assets/images/6.png">
-                    <img class="w-100 img-fluid"src="assets/images/6.png" alt="img"></a></li>
+                <a data-gall="gallery01" class="my-image-links" href="assets/images/11.jpg">
+                    <img class="w-100 img-fluid"src="assets/images/12.jpg" alt="img"></a></li>
         </ul>
     </div>
 </div>
 
 
 
-        </div>
-    </section>
+    
 
     <div class="container my-container">
         <div class="row house">
@@ -120,9 +158,9 @@
         </div> -->
         </div>
         <div class="my-items text-center mt-5">
-            <button class="myBtn1 bg-info p-2 mx-1 border-0 rounded-2">Tea House</button>
-         <button class="my_btn bg-danger p-2 mx-1 border-0 rounded-2">codify House</button>
-            <button class="my_btn3 bg-info p-2 mx-1 border-0 rounded-2">Water House</button>
+            <button class="myBtn1 bg-info p-2 mx-1 border-0 rounded-2">Order Now</button>
+            <button class="my_btn bg-danger p-2 mx-1 border-0 rounded-2">contact us</button>
+            <button class="my_btn3 bg-info p-2 mx-1 border-0 rounded-2">Review</button>
         </div>
     </div>
 
